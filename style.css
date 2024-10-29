@@ -32,6 +32,24 @@ html,body{
     /* background-color: blueviolet; */
     padding-top: 0.4vw;
 }
+.nav1 a h1{
+    color: black;
+}
+.nav1 a h1:hover{
+    color: rgb(123, 117, 117);
+}
+.nav1 a{
+    text-decoration: none;
+}
+.nav2 a h2{
+    color: black;
+}
+.nav2 a h2:hover{
+    color: rgb(123, 117, 117);
+}
+.nav2 a{
+    text-decoration: none;
+}
 /* .nav1 ::after{
     content: "C";
     font-size: 1VW;
