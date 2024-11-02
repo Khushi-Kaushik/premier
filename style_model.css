@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(76, 66, 52); */
+    padding-top: 1px;
+}
+.nav{
+    height: 8vh;
+    width: 100%;
+    /* background-color: lightgreen; */
+}
+.subnav{
+    margin-left: 10vw;
+    height: 8vh;
+    width: 80%;
+    /* background-color: rgb(26, 145, 185); */
+    border-bottom: 1px solid black;
+    display: flex;
+    gap: 2vw;
+    padding-left: 20vw;
+    padding-top: 1vw;
+}
+.subnav a{
+    text-decoration: none;
+}
+.subnav a h2{
+    font-size: 1.1vw;
+    color: rgb(39, 37, 37);
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: serif;
+}
+.sub_nav2{
+    height: 4vh;
+    width: 45%;
+    margin-left: 28vw;
+    /* background-color: chartreuse; */
+    display: flex;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+.sub_nav2 h3{
+    font-family: serif;
+    font-size: 1.1vw;
+    font-weight: 100;
+}
+.sub_nav2 h3:hover{
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    margin-left: 10vw ;
+    margin-top: 1vw;
+    gap: 2.6vw;
+}
+.frame{
+    background-color: aquamarine;
+    height: 39vh;
+    width: 14vw;
+    /* margin-left: 12vw; */
+    margin-top: 6vw;
+}
+.frame h1{
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: serif;
+    margin-left: 2.3vw;
+    margin-top: 1vw;
+}
+.frame h1:hover{
+    cursor: pointer;
+}
+.frame img{
+    /* background-color: aquamarine; */
+    height: 39vh;
+    width: 14vw;
+    object-fit: cover;
+}
+.hero1{
+    display: flex;
+    margin-left: 10vw ;
+    margin-top: 2vw;
+    gap: 2.6vw;
+}
+.frame1{
+    background-color: aquamarine;
+    height: 39vh;
+    width: 14vw;
+    /* margin-left: 12vw; */
+    margin-top: 6vw;
+}
+.frame1 h1{
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: serif;
+    margin-left: 2.3vw;
+    margin-top: 1vw;
+}
+.frame1 h1:hover{
+    cursor: pointer;
+}
+.frame1 img{
+    /* background-color: aquamarine; */
+    height: 39vh;
+    width: 14vw;
+    object-fit: cover;
+}
+.hero2{
+    display: flex;
+    margin-left: 10vw ;
+    margin-top: 2vw;
+    gap: 2.6vw;
+}
+.frame2{
+    background-color: aquamarine;
+    height: 39vh;
+    width: 14vw;
+    /* margin-left: 12vw; */
+    margin-top: 6vw;
+}
+.frame2 h1{
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: serif;
+    margin-left: 2.3vw;
+    margin-top: 1vw;
+}
+.frame2 h1:hover{
+    cursor: pointer;
+}
+.frame2 img{
+    /* background-color: aquamarine; */
+    height: 39vh;
+    width: 14vw;
+    object-fit: cover;
+}
+.footer{
+    height: 8vh;
+    width: 100%;
+    margin-top: 6vw;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}

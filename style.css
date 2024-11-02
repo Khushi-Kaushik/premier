@@ -50,6 +50,24 @@ html,body{
 .nav2 a{
     text-decoration: none;
 }
+.nav3 a h2{
+    color: black;
+}
+.nav3 a h2:hover{
+    color: rgb(123, 117, 117);
+}
+.nav3 a{
+    text-decoration: none;
+}
+.nav4 a h2{
+    color: black;
+}
+.nav4 a h2:hover{
+    color: rgb(123, 117, 117);
+}
+.nav4 a{
+    text-decoration: none;
+}
 /* .nav1 ::after{
     content: "C";
     font-size: 1VW;
