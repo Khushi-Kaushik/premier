@@ -268,7 +268,7 @@ html,body{
 .slide{
     height: 40vh;
     width: 100%;
-    /* background-color: red; */
+    background-color: red;
     white-space: nowrap;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -277,7 +277,7 @@ html,body{
     margin-top: 1vw;
     height: 100%;
     width: fit-content;
-    /* background-color: blue; */
+    background-color: blue;
     display: inline-block;
     animation-name: anime;
     animation-duration: 7s;
@@ -659,12 +659,12 @@ html,body{
 }
 .page8 .right{
     margin-left: 6vw;
-    height: 90%;
+    height: 80%;
     width: 32%;
     /* background-color: rgb(233, 132, 9); */
 }
 .page8 .upper-right{
-    height: 55%;
+    height: 50%;
     width: 100%;
     /* background-color: cadetblue; */
 }
@@ -695,12 +695,12 @@ html,body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .marque{
+    margin-top: 3vw;
     height: 10%;
     width: 100%;
     /* background-color: royalblue; */
     white-space: nowrap;
     overflow-x: hidden;
-    padding: 10px;
     overflow-y: hidden;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -763,9 +763,9 @@ html,body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .page9 .lower-middle{
-    height: 74%;
+    height: 80%;
     width: 100%;
-    /* background-color: blue; */
+    background-color: blue;
 }
 .page9 .middle img{
     height: 100%;
@@ -783,7 +783,7 @@ html,body{
 .page9 .lower-right{
     height: 74%;
     width: 100%;
-    margin-top: -4.3vw;
+    margin-top: -3vw;
     /* background-color: blue; */
 }
 .page9 .right img{
@@ -797,7 +797,7 @@ html,body{
     font-weight: 400;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.footer{
+.footer1{
     margin-top: 4.8vw;
     height: 45%;
     width: 100%;
@@ -807,26 +807,26 @@ html,body{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
-.footer .one{
+.footer1 .one{
     height: 100%;
     width: 20%;
     /* background-color: burlywood; */
     padding-left: 3.5vw;
     padding-top: 2vw;
 }
-.footer .one h1{
+.footer1 .one h1{
     font-size: 3vw;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: -4px;
 }
-.footer .one p{
+.footer1 .one p{
     font-size: 1vw;
     font-weight: 200;
     margin-left: 2vw;
     margin-top: -1vw;
 }
-.footer .two{
+.footer1 .two{
     padding-top: 3vw;
     height: 100%;
     width: 20%;
@@ -835,13 +835,13 @@ html,body{
     padding-top: 2vw;
     border-right: 2px solid black;
 }
-.footer .two h4{
+.footer1 .two h4{
     font-size: 1.3vw;
     font-weight: 500;
     margin-top: 1vw;
     margin-left: 5vw;
 }
-.footer .three{
+.footer1 .three{
     padding-top: 3vw;
     height: 100%;
     width: 20%;
@@ -850,30 +850,30 @@ html,body{
     padding-top: 2vw;
     border-right: 2px solid black;
 }
-.footer .three h4{
+.footer1 .three h4{
     font-size: 1.3vw;
     font-weight: 500;
     margin-top: 1vw;
     /* margin-left: 5vw; */
 }
-.footer .four{
+.footer1 .four{
     display: table-column;
     height: 100%;
     width: 40%;
     /* background-color: lightsalmon; */
 }
-.footer .four .four-up{
+.footer1 .four .four-up{
     height: 20%;
     width: 100%;
     /* background-color: lightgreen; */
 }
-.footer .four .four-up h4{
+.footer1 .four .four-up h4{
     font-size: 1.3vw;
     font-weight: 500;
     margin-top: 3vw;
     margin-left: 5vw;
 }
-.footer .four .four-down .ele{
+.footer1 .four .four-down .ele{
     display: flex;
     /* background-color: aqua; */
     height: 20%;
@@ -882,17 +882,27 @@ html,body{
     padding-left: 3vw;
     gap: 1.3vw;
 }
-.footer .four .four-down .ele :hover{
+.footer1 .four .four-down .ele :hover{
     color: black;
 }
 
-.footer .four .four-down .four-content{
+.footer1 .four .four-down .four-content{
     margin-left: 3vw ;
     margin-top: 1vw;
 }
-.footer .four .four-down .four-content p{
+.footer1 .four .four-down .four-content p{
     font-size: 1vw;
     font-weight: 200;
+}
+.footer{
+    height: 8vh;
+    width: 70%;
+    margin-left: 15vw;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
 }
 @media (max-width:1000px) {
     /* .body{
