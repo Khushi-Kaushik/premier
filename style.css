@@ -14,22 +14,74 @@ html,body{
     padding-top: 1px;
 }
 .nav{
+    width: 100%;
+    height: 25vh;
+    /* background-color: blueviolet; */
+}
+.nav1{
+    font-family: serif;
+    /* margin-left: 40vw; */
+    width: 100%;
+    height: 14vh;
+    /* background-color: lavenderblush; */
+}
+.nav1 h1{
+    font-weight: 300;
+    font-size: 6vw;
+    margin-left: 40vw;
+}
+.nav2{
+    display: flex;
+    height: 8vh;
+    width: 49%;
+    /* background-color: lightgreen; */
+    margin-left: 25vw;
+    gap: 3.8vw;
+    border-bottom: 1px solid black;
+}
+.nav2 a{
+    text-decoration: none;
+    color: black;
+}
+.nav2 a h2{
+    margin-top: 1.5vw;
+    font-size: 1.2vw;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.alp{
+    height: 2vw;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    /* border-bottom: 2px solid black;
+    border-top: 2px solid black; */
+}
+.alp h6{
+    font-size: 1vw;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .nav{
     margin-top: 30px;
-    /* width: 100%; */
+    width: 100%;
     height: 6vw;
     display: flex;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
 }
 .nav1{
     font-size: 2vw;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     letter-spacing: -4px;
-    /* gap: 0.1vw; */
+    gap: 0.1vw;
     margin-left: 2vw;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     padding-top: 0.4vw;
 }
 .nav1 a h1{
@@ -67,7 +119,7 @@ html,body{
 }
 .nav4 a{
     text-decoration: none;
-}
+} */
 /* .nav1 ::after{
     content: "C";
     font-size: 1VW;
@@ -77,46 +129,46 @@ html,body{
     font-size: 2vw;
     top: 12%;
 } */
-.nav2{
-    /* margin-left: 6vw; */
-    /* margin-left: 5vw; */
+/* .nav2{
+    margin-left: 6vw;
+    margin-left: 5vw;
     padding-top: 2.5vw;
     padding-left: 10vw;
-    /* padding-right: 20px; */
-    /* background-color: azure; */
+    padding-right: 20px;
+    background-color: azure;
     padding-right: 100px;
     border-right: 2px solid black;
 }
 .nav2 h2{
     font-size: 1.5vw;
     font-weight: 300;
-    /* padding-left: 5vw; */
-    /* margin-left: 2vw; */
+    padding-left: 5vw;
+    margin-left: 2vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav3{
     padding-top: 2.5vw;
-    /* background-color: azure; */
+    background-color: azure;
     padding-right: 100px;
     border-right: 2px solid black;
 }
 .nav3 h2{
     font-size: 1.5vw;
-    /* padding-left: 5vw; */
+    padding-left: 5vw;
     font-weight: 300;
     margin-left: 5vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav4{
     padding-top: 2.5vw;
-    /* padding-right: 10px; */
-    /* background-color: azure; */
+    padding-right: 10px;
+    background-color: azure;
     padding-right: 45px;
     border-right: 2px solid black;
 }
 .nav4 h2{
     font-size: 1.5vw;
-    /* padding-left: 5vw; */
+    padding-left: 5vw;
     font-weight: 300;
     margin-left: 5vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -124,13 +176,13 @@ html,body{
 .nav5{
     padding-top: 2vw;
     padding-right: 20px;
-    /* background-color: azure; */
+    background-color: azure;
     padding-right: 100px;
 }
 .nav5 i{
     font-size: 2vw;
     padding-left: 4vw;
-}
+} */
 /* video part */
 .home{
     /* background-color: black; */
@@ -829,6 +881,9 @@ html,body{
     margin-top: 2vw;
     padding-left: 3vw;
     gap: 1.3vw;
+}
+.footer .four .four-down .ele :hover{
+    color: black;
 }
 
 .footer .four .four-down .four-content{
