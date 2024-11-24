@@ -26,7 +26,7 @@ html,body{
     border-bottom: 1px solid black;
     display: flex;
     gap: 2vw;
-    padding-left: 20vw;
+    padding-left: 18vw;
     padding-top: 1vw;
 }
 .subnav a{
