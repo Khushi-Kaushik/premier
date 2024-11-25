@@ -4,7 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="model.css">
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+      import { getFirestore, doc, setDoc } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js'
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDsTYRlXQL-YHo1FtfESmmIIHuvWHMdDyM",
+        authDomain: "model-proj.firebaseapp.com",
+        projectId: "model-proj",
+        storageBucket: "model-proj.firebasestorage.app",
+        messagingSenderId: "1063261844694",
+        appId: "1:1063261844694:web:6051e060d4b02b0a508577"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
+
+      function submitForm() {
+        await setDoc(doc(db, "modelFeedback", Date.now()), {
+          name: "Model Name",
+          age: "CA",
+        });
+      }
+    </script>
 </head>
 <body>
     <!--
